@@ -1,0 +1,1 @@
+﻿const http = require("http"); const server = http.createServer((req, res) => { res.writeHead(200, {"Content-Type": "text/plain"}); res.end("Servidor de Facturacion Activo"); }); server.listen(8080, () => { console.log("Servidor escuchando en el puerto 8080"); });

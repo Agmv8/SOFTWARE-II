@@ -1,0 +1,16 @@
+# Dependencias locales (se deben instalar limpias dentro del contenedor)
+node_modules
+npm-debug.log
+
+# Control de versiones e historial de Git
+.git
+.gitignore
+
+# Variables de entorno y credenciales sensibles
+.env
+.env.*
+
+# Archivos de definición de contenedores y documentación
+Dockerfile
+.dockerignore
+README.md
